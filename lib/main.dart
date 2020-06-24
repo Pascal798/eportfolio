@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_admob/firebase_admob.dart';
 
+const String testDevice = "Mobile_Id";
+
 void main() {
   runApp(MyApp());
 }
@@ -30,6 +32,12 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+
+  static const MobileAdTargetingInfo targetingInfo = MobileAdTargetingInfo(
+    testDevices: testDevice != null ? <String>[testDevice] : null,
+    nonPersonalizedAds: true,
+    keywords: ["Game"],
+  );
 
   @override
   Widget build(BuildContext context) {
