@@ -39,6 +39,30 @@ class _MyHomePageState extends State<MyHomePage> {
     keywords: ["Game"],
   );
 
+  BannerAd _bannerAd;
+  InterstitialAd _interstitialAd;
+
+  BannerAd createBannerAd(){
+    return BannerAd(
+      adUnitId: BannerAd.testAdUnitId,
+      size: AdSize.banner,
+      targetingInfo: targetingInfo,
+      listener: (MobileAdEvent event){
+        print("BannerAd $event");
+      }
+    );
+  }
+
+  InterstitialAd createInterstitialAd(){
+    return InterstitialAd(
+        adUnitId: InterstitialAd.testAdUnitId,
+        targetingInfo: targetingInfo,
+        listener: (MobileAdEvent event){
+          print("InterstitialAd $event");
+        }
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
