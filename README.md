@@ -20,4 +20,4 @@ Presentation -> https://docs.google.com/presentation/d/1SWXVX0xzptQldHJDVbMN5vHu
 => If you need more help check https://flutter.dev/docs
 
 ## Task
-If everything works create your Firebase and AdMob accounts and try to implement testAds.
+If everything works, try to implement testAds.
