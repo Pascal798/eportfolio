@@ -62,6 +62,22 @@ class _MyHomePageState extends State<MyHomePage> {
         }
     );
   }
+  
+  @override
+  void initState() {
+    // TODO: implement initState
+    FirebaseAdMob.instance.initialize(appId: "ca-app-pub-1432851189062335~9499555345");
+    _bannerAd = createBannerAd()..load()..show();
+    super.initState();
+  }
+
+  @override
+  void dispose() {
+    // TODO: implement dispose
+    _bannerAd.dispose();
+    _interstitialAd.dispose();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -70,7 +86,12 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: Center(
-
+        child: RaisedButton(
+          child: Text("Click for ads"),
+          onPressed: (){
+            createInterstitialAd()..load()..show();
+          },
+        ),
       ),
     );
   }
