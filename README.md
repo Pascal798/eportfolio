@@ -12,7 +12,7 @@ Presentation -> https://docs.google.com/presentation/d/1SWXVX0xzptQldHJDVbMN5vHu
     * Click Conigure -> AVD Manager
     * Create Virtual Device
     * Start the virtual Device
-5. Clone the Project from this branch --> https://github.com/Pascal798/eportfolio/tree/startBranch
+5. Clone the Project from this commit--> https://github.com/Pascal798/eportfolio/tree/6eb789b1ba7fa88dc5b648c716360e22e590e319
 6. Open it in IntelliJ
 7. Choose in the Project Settings the Flutter SDK as Project SDK
 8. run "flutter pub get"
