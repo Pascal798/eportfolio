@@ -41,7 +41,7 @@ If everything works, try to implement a bannerAd and interstitialAd. (you will n
 3. Goto to cloned project in your IDE
 
 4. Go to the AndroidManifest.xml which you will find under android/app/src/main , add the following meta-key and insert your appId to the android:value property
-![androidManifestMetaKey](https://github.com/Pascal798/eportfolio/blob/master/images/metakey.png)
+![androidManifestMetaKey](https://github.com/Pascal798/eportfolio/blob/master/images/metakey.PNG)
 
 5. Go to your pubspec.yaml and add the firebase_admob: dependency
 ![dependency](https://github.com/Pascal798/eportfolio/blob/master/images/dependency.png)
