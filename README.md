@@ -56,10 +56,10 @@ If everything works, try to implement a bannerAd and interstitialAd. (you will n
 9. Go to your State class in the main.dart and create the MobileAdTargetingInfo for your ads and add some properties for your ad (you need to add the testDevices property and give it your testDevice constant)
 ![MobileAdTargetingInfo](https://github.com/Pascal798/eportfolio/blob/master/images/mobileAdTargetingInfo.png)
 
-10. Create two variables for bannerAd and interstitialAd
+10. Create two variables for bannerAd and interstitialAd  
 ![createVariables](https://github.com/Pascal798/eportfolio/blob/master/images/createVariables.png)
 
-11. Create the CreateMethods for your ads where you will return the ad with the needed properties (they need nearly the same properties apart from the size the interstitialAd doesnt need because it will always cover the whole screen)
+11. Create the CreateMethods for your ads where you will return the ad with the needed properties (they need nearly the same properties apart from the size the interstitialAd doesnt need because it will always cover the whole screen)  
 ![createBannerAd](https://github.com/Pascal798/eportfolio/blob/master/images/createBannerAd.png)
 ![createInterstitialAd](https://github.com/Pascal798/eportfolio/blob/master/images/createInterstitialAd.png)
 
@@ -68,7 +68,7 @@ If everything works, try to implement a bannerAd and interstitialAd. (you will n
 12. Create the initState() method where you will initialize a FireBaseAdMob instance with your appID and the bannerAd by first loading it and then show it (interstitialAd will be initialized through a button later) 
 ![initState](https://github.com/Pascal798/eportfolio/blob/master/images/initState.png)
 
-13. Dispose your ads by the dispose() method
+13. Dispose your ads by the dispose() method  
 ![dispose](https://github.com/Pascal798/eportfolio/blob/master/images/dispose.png)
 
 14. Go to the body of your page in the build() method and add a RaisedButton which will show the interstitialAd
