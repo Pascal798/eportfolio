@@ -27,7 +27,7 @@ If everything works, try to implement a bannerAd and interstitialAd. (you will n
 1. Clone the project from this commit --> https://github.com/Pascal798/eportfolio/tree/6eb789b1ba7fa88dc5b648c716360e22e590e319
 
 2. Go to Google AdMob --> https://admob.google.com/home/
-	a. Add your app to AdMob by following the steps you will see when you click on add app
+	a. Add your app to AdMob by following the steps you will see when you click on add app  
 	![apps](https://github.com/Pascal798/eportfolio/blob/master/images/apps.png)
 	![add apps](https://github.com/Pascal798/eportfolio/blob/master/images/add%20app.png)
 
